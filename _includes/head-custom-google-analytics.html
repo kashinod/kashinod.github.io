@@ -1,6 +1,6 @@
 {% if site.google_analytics %}
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FDMB4G1XGJ"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.measurement_id }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
